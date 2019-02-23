@@ -4,8 +4,6 @@ const WebSocket = require('ws');
 'ws://www.host.com/path'
 const ws_back = new WebSocket.Server({ port: 4567 });
 const ws_front = new WebSocket.Server({ port: 5678 });
-// const ws_back = new WebSocket('ws://pro.ject.ch/aurora');
-// const ws_front = new WebSocket('ws://pro.ject.ch/aurora');
 
 const util = require('util')
 
