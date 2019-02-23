@@ -1,0 +1,74 @@
+html,
+body{
+	position: relative;
+	color: @color-copy;
+	font-family: @standard;
+	font-weight: @light;
+	font-size: @base-font-size;
+	line-height: @base-line-height;	
+}
+
+.main{
+	width: 100%;
+	position: relative;
+	min-height: 100%;
+}
+
+.send {
+	position: fixed;
+	bottom: 0;
+	height: 10vh;
+	width: 100vw;
+	background-color: black;
+	color: white;
+	line-height: 10vh;
+	font-size: 5vh;
+	text-align: center;
+}
+
+.control {
+
+}
+
+.background {
+	padding: 20px;
+	text-align: center;
+	overflow: hidden;
+
+	.color{
+		position: relative;
+		height: 50px;
+		width: 50px;
+		margin: 0 20px 20px 0;
+		border-radius: 50%;
+		overflow: hidden;
+		display: inline-block;
+	}
+
+}
+
+.dots {
+	padding: 20px;
+	text-align: center;
+
+	div {
+		display: inline-block;
+		padding: 20px;
+		border: dotted grey 1px;
+
+		&.selected {
+			border-style: solid;
+		}
+	}
+}
+
+.letters {
+	text-align: center;
+	font-size: 50px;
+
+	input {
+		text-align: center;
+		width: 80%;
+	}
+
+}
